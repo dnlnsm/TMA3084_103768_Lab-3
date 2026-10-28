@@ -26,7 +26,7 @@ const List<Food> foods = [
         'A fresh pizza topped with bell peppers, onions, mushrooms, olives '
         'and melted mozzarella on a crispy crust.',
     price: 'RM 18.00',
-    image: 'assets/images/pizza.jpg',
+    image: 'assets/image/pizza.jpg',
   ),
   Food(
     name: 'Chicken Pizza',
@@ -34,7 +34,7 @@ const List<Food> foods = [
         'Juicy grilled chicken, tomato sauce and gooey cheese baked to '
         'perfection on a hand-tossed base.',
     price: 'RM 22.00',
-    image: 'assets/images/pizza.jpg',
+    image: 'assets/image/pizza.jpg',
   ),
   Food(
     name: 'Cheese Pizza',
@@ -42,7 +42,7 @@ const List<Food> foods = [
         'The classic favourite: a rich blend of mozzarella and cheddar '
         'over a tangy tomato sauce.',
     price: 'RM 16.00',
-    image: 'assets/images/pizza.jpg',
+    image: 'assets/image/pizza.jpg',
   ),
 ];
 
@@ -56,9 +56,9 @@ class RestaurantMenuApp extends StatelessWidget {
       debugShowCheckedModeBanner: true,
       theme: ThemeData(
         useMaterial3: true,
-        scaffoldBackgroundColor: const Color(0xFFFDF7FF),
+        scaffoldBackgroundColor: Colors.white,
         appBarTheme: const AppBarTheme(
-          backgroundColor: Color(0xFFFF5722),
+          backgroundColor: Colors.red,
           foregroundColor: Colors.white,
           titleTextStyle: TextStyle(
             fontFamily: 'cursive',
